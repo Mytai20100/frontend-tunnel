@@ -502,7 +502,7 @@ const SettingsModal = memo(({ show, onClose, settings, setSettings, theme, setTh
                     transition: 'all 0.2s'
                   }}
                 >
-                  ☀️ Light
+                  Light
                 </button>
                 <button
                   onClick={() => setTheme('dark')}
@@ -517,7 +517,7 @@ const SettingsModal = memo(({ show, onClose, settings, setSettings, theme, setTh
                     transition: 'all 0.2s'
                   }}
                 >
-                  🌙 Dark
+                  Dark
                 </button>
               </div>
             </div>
